@@ -1,0 +1,25 @@
+[project]
+name = "dalle"
+version = "0.1.0"
+description = "dalle project for generative ai"
+authors = [
+    {name = "Vaibhav Singh"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django (>=5.1.5,<6.0.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "azure-storage-blob (>=12.24.1,<13.0.0)",
+    "openai (>=1.61.0,<2.0.0)",
+    "azure-identity (>=1.19.0,<2.0.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "django-rest-framework (>=0.1.0,<0.2.0)",
+    "djangorestframework (>=3.15.2,<4.0.0)",
+    "pytest (>=8.3.4,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
